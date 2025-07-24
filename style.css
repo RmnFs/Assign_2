@@ -4,6 +4,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* BORDEEEERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
 .bb {
     border: 1px solid red;
 }
@@ -86,4 +87,99 @@ nav {
 }
 
 
+
+
+
+
+
+/* -------------OUR PLANTS-------------- */
+.our-plants-section {
+    text-align: center;
+    /* padding: 50px 20px; */
+    margin: 80px 85px;
+
+}
+
+/* .test {
+    width: 70px;
+    height: 384px;
+    
+
+} */
+
+.section-heading {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.orange-text {
+    color: #E95A08;
+    font-weight: bold;
+}
+
+.black-text {
+    color: #000;
+    font-weight: bold;
+}
+
+.section-description {
+    padding: 0px 80px;
+    color: #757575;
+    font-size: .9rem;
+    font-weight: 100;
+
+}
+
+.plant-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.plant-card {
+    background-color: #ffffff;
+    /* padding: 5px; */
+    /* border-radius: 6px; */
+
+
+
+}
+
+.plant-card img {
+    width: 155px;
+    height: auto;
+    border-radius: 2px;
+}
+
+.plant-name {
+    margin: 15px 0 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #111;
+}
+
+.plant-price {
+    font-weight: bold;
+    font-size: .9rem;
+    margin: 0px;
+}
+
+.add-to-cart {
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    width: 155px;
+    /*same as iamge  */
+    font-size: .5rem;
+    font-weight: 500;
+    padding: 10px 0px;
+    cursor: pointer;
+    margin-top: 9px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #d14e06;
+}
 
