@@ -4,9 +4,9 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* .bb {
-    border: 2px solid red;
-} */
+.bb {
+    border: 1px solid red;
+}
 
 nav {
     display: flex;
@@ -18,18 +18,18 @@ nav {
 }
 
 .logo-image img {
-    width: 70px; 
-    height: 42px;;
+    width: 70px;
+    height: 42px;
+
     padding: 0;
-    margin-left: 75px;
+    margin-left: 85px;
 }
 
 .menu {
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-right: 75px;
-    /* padding-right: 50px; */
+    margin-right: 85px;
     padding: 0px;
 
 }
@@ -39,10 +39,10 @@ nav {
     margin: 0;
     padding: 0;
     font-size: small;
-  
+
 }
-.bold
-{
+
+.bold {
     font-weight: 600;
 }
 
@@ -50,5 +50,40 @@ nav {
     margin: 0;
     padding: 0;
     font-size: small;
-    
+
 }
+
+/* BANNER SECTION STARTS */
+
+.banner {
+    margin: 80px 85px;
+    display: flex;
+    /* align-content: center; */
+
+}
+
+.orange {
+    color: #E95A08;
+}
+
+.tagline {
+    font-size: 3.3rem;
+    margin: 0;
+    padding-top: 1.2rem;
+}
+
+.info {
+    font-size: .8rem;
+    margin-top: 17px;
+    /* To align the text and image bottom  */
+    color: #757575;
+}
+
+.banner-img img {
+
+    width: 370px;
+    height: 222px;
+}
+
+
+
