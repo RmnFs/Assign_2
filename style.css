@@ -5,9 +5,9 @@ body {
 }
 
 /* BORDEEEERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
-.bb {
+/* .bb {
     border: 1px solid red;
-}
+} */
 
 nav {
     display: flex;
@@ -138,8 +138,7 @@ nav {
 
 .plant-card {
     background-color: #ffffff;
-    /* padding: 5px; */
-    /* border-radius: 6px; */
+
 
 
 
@@ -183,3 +182,67 @@ nav {
     background-color: #d14e06;
 }
 
+
+
+
+
+/* -------------FLOWER LOVER SECTION----------- */
+
+.flower-lover-section {
+
+    margin: 0 80px;
+    padding: 0px 5px;
+
+}
+
+.flower-lover-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.image-container {
+    position: relative;
+  
+}
+
+.image-container .main-image {
+    width: 100%;
+    padding: 5px;
+    max-width: 500px;
+
+  
+
+}
+
+.image-container .badge {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 100px;
+    height: auto;
+}
+
+.text-container {
+    max-width: 550px;
+    height: auto;
+}
+
+.text-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #757575;
+    font-size: .75rem;
+}
+
+.text-container li {
+    margin-bottom: 15px;
+}
