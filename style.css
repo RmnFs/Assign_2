@@ -284,8 +284,7 @@ p {
     padding-top: 15px;
 }
 
-.deals-images 
-{
+.deals-images {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -306,11 +305,67 @@ p {
     border-radius: 10px;
     margin-bottom: 10px;
 
-    
+
 
 }
 
 .zabo {
     max-width: 400px;
     border-radius: 10px;
+}
+
+
+
+/* NEWSssssssssssssssssssssssssssssssssssss */
+
+.news-letter {
+
+
+    background-image: url(assets/news-letter-bg.png);
+    max-width: 1000px;
+    height: 330px;
+    align-items: center;
+    align-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px 0px;
+
+
+
+
+
+}
+
+.news-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: floralwhite;
+
+}
+
+.c2a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+}
+
+.btn-sub {
+    background-color: #E95A08;
+    color: white;
+    padding: 10px 20px;
+    font-size: .6rem;
+    font-weight: 500;
+    border: none;
+
+}
+
+input {
+    margin: 0px;
+    padding: 10px 10px;
+    font-size: .6rem;
+    width: 400px;
+    border: none;
 }
