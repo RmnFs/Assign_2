@@ -5,8 +5,13 @@ body {
 }
 
 /* BORDEEEERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
+
 /* .bb {
     border: 1px solid red;
+}
+.c 
+{
+    border: 1px solid blue;
 } */
 
 nav {
@@ -76,7 +81,7 @@ nav {
 .info {
     font-size: .8rem;
     margin-top: 17px;
-    /* To align the text and image bottom  */
+
     color: #757575;
 }
 
@@ -190,8 +195,11 @@ nav {
 
 .flower-lover-section {
 
-    margin: 0 80px;
+    margin: 0 120px;
     padding: 0px 5px;
+    display: flex;
+    align-items: center;
+
 
 }
 
@@ -200,40 +208,51 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin: 0px;
 
 }
 
 .image-container {
     position: relative;
-  
+    flex: 1;
+
 }
 
 .image-container .main-image {
     width: 100%;
+    height: auto;
     padding: 5px;
-    max-width: 500px;
+    flex: 1;
+    margin: 0px 0px;
 
-  
+
 
 }
 
 .image-container .badge {
     position: absolute;
     top: -30px;
-    right: -30px;
-    width: 100px;
+    right: -40px;
+    width: 120px;
     height: auto;
 }
 
 .text-container {
-    max-width: 550px;
+    margin: 0px;
+    padding: 0px;
+    flex: 1;
     height: auto;
+
+
 }
 
 .text-container h2 {
-    font-size: 2rem;
+    font-size: 2.1rem;
     font-weight: bold;
     margin-bottom: 20px;
+    padding: 0px;
+    margin-top: 20px;
+
 }
 
 .text-container ul {
@@ -244,5 +263,6 @@ nav {
 }
 
 .text-container li {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+
 }
