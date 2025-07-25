@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 
 /* BORDEEEERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR to check*/
@@ -42,28 +45,25 @@ nav a {
 }
 
 .logo-image img {
-    width: 70px;
-    height: 42px;
-
+    width: 90px;
+    height: 54px;
     padding: 0;
-    margin-left: 85px;
+    margin-left: 120px;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-right: 85px;
+    gap: 25px;
+    margin-right: 120px;
     padding: 0px;
-
 }
 
 .menu a {
     text-decoration: none;
     margin: 0;
     padding: 0;
-    font-size: small;
-
+    font-size: 1rem;
 }
 
 .bold {
@@ -72,18 +72,16 @@ nav a {
 
 .menu button {
     margin: 0;
-    padding: 0;
-    font-size: small;
-
+    padding: 8px 16px;
+    font-size: 1rem;
 }
 
 /* BANNER SECTION STARTS */
 
 .banner {
-    margin: 80px 85px;
+    margin: 100px 120px;
     display: flex;
-    /* align-content: center; */
-
+    align-items: center;
 }
 
 .orange {
@@ -91,22 +89,21 @@ nav a {
 }
 
 .tagline {
-    font-size: 3.3rem;
+    font-size: 4rem;
     margin: 0;
     padding-top: 1.2rem;
 }
 
 .info {
-    font-size: .8rem;
-    margin-top: 17px;
-
+    font-size: 1.1rem;
+    margin-top: 20px;
     color: #757575;
+    line-height: 1.6;
 }
 
 .banner-img img {
-
-    width: 370px;
-    height: 222px;
+    width: 450px;
+    height: auto;
 }
 
 
@@ -118,21 +115,12 @@ nav a {
 /* -------------OUR PLANTS-------------- */
 .our-plants-section {
     text-align: center;
-    /* padding: 50px 20px; */
-    margin: 80px 85px;
-
+    margin: 100px 120px;
 }
 
-/* .test {
-    width: 70px;
-    height: 384px;
-    
-
-} */
-
 .section-heading {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    margin-bottom: 15px;
 }
 
 .orange-text {
@@ -146,43 +134,40 @@ nav a {
 }
 
 .section-description {
-    padding: 0px 80px;
+    padding: 0px 100px;
     color: #757575;
-    font-size: .9rem;
+    font-size: 1.1rem;
     font-weight: 100;
-
+    line-height: 1.6;
 }
 
 .plant-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
+    margin-top: 40px;
 }
 
 .plant-card {
     background-color: #ffffff;
-
-
-
-
 }
 
 .plant-card img {
-    width: 155px;
+    width: 200px;
     height: auto;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .plant-name {
-    margin: 15px 0 5px;
-    font-size: 1rem;
+    margin: 20px 0 8px;
+    font-size: 1.2rem;
     font-weight: 500;
     color: #111;
 }
 
 .plant-price {
     font-weight: bold;
-    font-size: .9rem;
+    font-size: 1.1rem;
     margin: 0px;
 }
 
@@ -190,14 +175,13 @@ nav a {
     background-color: #E95A08;
     color: white;
     border: none;
-    width: 155px;
-    /*same as iamge  */
-    font-size: .5rem;
+    width: 200px;
+    font-size: 0.9rem;
     font-weight: 500;
-    padding: 10px 0px;
+    padding: 12px 0px;
     cursor: pointer;
-    margin-top: 9px;
-    margin-bottom: 15px;
+    margin-top: 12px;
+    margin-bottom: 20px;
     transition: background-color 0.3s ease;
 }
 
@@ -213,21 +197,18 @@ nav a {
 
 .flower-lover-section {
     max-width: 1440px;
-    margin: 0 120px;
-    padding: 0px 5px;
+    margin: 100px 120px;
+    padding: 0px;
     display: flex;
     align-items: center;
-
-
 }
 
 .flower-lover-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 80px;
     margin: 0px;
-
 }
 
 .image-container {
@@ -249,9 +230,9 @@ nav a {
 
 .image-container .badge {
     position: absolute;
-    top: -30px;
-    right: -40px;
-    width: 120px;
+    top: -70px;
+    right: -90px;
+    width: 220px;
     height: auto;
 }
 
@@ -265,24 +246,23 @@ nav a {
 }
 
 .text-container h2 {
-    font-size: 2.1rem;
+    font-size: 2.8rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 0px;
-    margin-top: 20px;
-
+    margin-top: 0px;
 }
 
 .text-container ul {
     list-style-type: disc;
-    padding-left: 20px;
+    padding-left: 25px;
     color: #757575;
-    font-size: .75rem;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 .text-container li {
-    margin-bottom: 10px;
-
+    margin-bottom: 15px;
 }
 
 
@@ -290,16 +270,22 @@ nav a {
 
 
 
+.deals-section {
+    margin: 100px 120px;
+}
+
 .deal-info {
-    margin: 0px 100px;
-    padding-bottom: 45px;
+    margin: 0px 50px;
+    padding-bottom: 50px;
+    font-size: 1.7rem;
+
 }
 
 .deals-text h2 {
     text-align: center;
-    padding-bottom: 15px;
-    padding-top: 15px;
-
+    /* padding-bottom: 20px; */
+    padding-top: 20px;
+    font-size: 3rem;
 }
 
 .deals-text h2 span {
@@ -313,29 +299,27 @@ nav a {
 .deals-images {
     display: flex;
     justify-content: center;
-    gap: 10px;
-
+    gap: 15px;
 }
 
-
 .deal-item .ana {
-    max-width: 200px;
-    width: 200px;
+    max-width: 350px;
+    width: 350px;
     display: block;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .deal-item .bloom {
-    max-width: 200px;
-    width: 200px;
+    max-width: 350px;
+    width: 350px;
     display: block;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .deal-item .zabo {
-    max-width: 400px;
-    width: 400px;
-    border-radius: 10px;
+    max-width: 700px;
+    width: 700px;
+    border-radius: 15px;
 }
 
 /* Deal overlay styles */
@@ -345,7 +329,7 @@ nav a {
 }
 
 .left .deal-item {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .left .deal-item:last-child {
@@ -361,23 +345,22 @@ nav a {
     color: white;
     z-index: 2;
     width: 100%;
-  
+
 
 }
 
 .deal-text {
-
-    font-size: .75rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin: 0px;
     padding: 0px;
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .shop-now {
-    font-size: .75rem;
+    font-size: 1.1rem;
     font-weight: 500;
-    margin: 0px;
+    margin: 5px 0 0 0;
     padding: 0px;
     background: none;
     border: none;
@@ -385,55 +368,50 @@ nav a {
     color: #ffffff;
     cursor: pointer;
     text-decoration: underline;
- 
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-.shop-now:hover
-{
+.shop-now:hover {
     color: #E95A08;
 }
 
 .deal-item img {
     filter: brightness(0.7);
-   
+
 }
 
 
 /* Newssssssssssssssssssssssssssssssssssss Letterrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
-    .btn-sub:hover{
-        background-color: #ffbe98;
-        color: #757575;
-    }
+.btn-sub:hover {
+    background-color: #ffbe98;
+    color: #757575;
+}
 
 .news-letter {
-
-
     background-image: url(assets/news-letter-bg.png);
-    max-width: 1440px;
-    width: 100%;
-    min-height: 350px;
+    width: 100vw;
+    min-height: 550px;
+
     height: auto;
     align-items: center;
     align-content: center;
     background-position: center;
     background-repeat: no-repeat;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 30px;
-
-
-
-
-
-
+    background-size: cover;
+    margin: 50px 0 30px 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 .news-title {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     color: floralwhite;
-
+    margin-bottom: 40px;
+    padding-top: 60px;
 }
 
 .c2a {
@@ -441,25 +419,25 @@ nav a {
     align-items: center;
     justify-content: center;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 60px 0px;
     gap: 0px;
 }
 
 .btn-sub {
     background-color: #E95A08;
     color: white;
-    padding: 10px 20px;
-    font-size: .6rem;
+    padding: 15px 30px;
+    font-size: 1rem;
     font-weight: 500;
     border: none;
-
+    cursor: pointer;
 }
 
 input {
     margin: 0px;
-    padding: 10px 10px;
-    font-size: .6rem;
-    width: 400px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    width: 500px;
     border: none;
 }
 
@@ -470,37 +448,52 @@ input {
 
 .footer-container {
     display: flex;
-    margin: 0px 0px;
-    padding: 0px;
+    margin: 60px 120px;
+    padding: 40px 0px;
     justify-content: space-around;
-    /* align-items: center; */
 }
 
 .footer-container li,
 a {
     list-style: none;
     text-decoration: none;
-    margin-bottom: 10px;
-    font-size: .75rem;
-
+    margin-bottom: 15px;
+    font-size: 1rem;
 }
 
 .footer-container a {
     color: #757575;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-left img {
+    width: 100px;
+    height: auto;
 }
 
 .icons {
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.icons img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
 }
 
 .t {
-
-    margin-bottom: 7px;
+    margin-top: 5px;
 }
 
+.footer-text {
+    color: #757575;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 0;
+    max-width: 250px;
+}
 
-/* MOBILEEEEEEEEEEEEEEEEEEEEEEE RESPONSIVEEEEEEEEEEEEEEEE */
 
 
 
@@ -540,7 +533,7 @@ a {
         align-items: flex-start;
     }
 
-    
+
     .banner-img {
         order: 1;
         width: 100%;
@@ -553,7 +546,7 @@ a {
         height: auto;
     }
 
-    
+
     .banner-text {
         order: 2;
         text-align: left;
@@ -600,8 +593,9 @@ a {
         font-size: 0.6rem;
         padding: 12px 0px;
     }
-    .plant-name, .plant-price
-    {
+
+    .plant-name,
+    .plant-price {
         font-size: .85rem;
 
     }
@@ -626,7 +620,7 @@ a {
         padding: 0;
     }
 
-   
+
     .image-container .badge {
         display: none;
     }
@@ -722,7 +716,7 @@ a {
         font-size: 1rem;
         margin-bottom: 10px;
         text-align: center;
-       
+
     }
 
     .c2a {
@@ -744,10 +738,10 @@ a {
     .btn-sub {
         font-size: 0.7rem;
         padding: 8px 12px;
-       
+
     }
 
-    .btn-sub:hover{
+    .btn-sub:hover {
         background-color: #ffbe98;
         color: #757575;
     }
@@ -756,11 +750,12 @@ a {
     /* Footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr for mobileeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
     .footer-container {
         flex-direction: column;
-        
+
         gap: 30px;
         margin: 40px 20px;
-        
+
     }
+
 
     .footer-left img {
         width: 60px;
@@ -785,10 +780,10 @@ a {
 
     .icons {
         display: flex;
-        
+
         gap: 10px;
         margin-top: 0;
-        margin-left:0px;
+        margin-left: 0px;
         padding-left: 0px;
     }
 
@@ -796,4 +791,12 @@ a {
         width: 20px;
         height: 20px;
     }
+
+    .t {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+
+
 }
