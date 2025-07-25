@@ -194,7 +194,7 @@ nav {
 /* -------------FLOWER LOVER SECTION----------- */
 
 .flower-lover-section {
-
+    max-width: 1440px;
     margin: 0 120px;
     padding: 0px 5px;
     display: flex;
@@ -265,4 +265,52 @@ nav {
 .text-container li {
     margin-bottom: 10px;
 
+}
+
+
+/* DEAAAAAAAAAAAAAAAAAAAAAAALLLLLLLLLLLLLLLS */
+
+
+
+.deal-info {
+    margin: 0px 100px;
+    padding-bottom: 45px;
+}
+
+.deals-text h2,
+p {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.deals-images 
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.ana {
+    max-width: 200px;
+    display: block;
+    margin-bottom: 8px;
+    border-radius: 10px;
+
+}
+
+.bloom {
+    max-width: 200px;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    
+
+}
+
+.zabo {
+    max-width: 400px;
+    border-radius: 10px;
 }
