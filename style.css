@@ -23,6 +23,24 @@ nav {
     margin-top: 20px;
 }
 
+nav a {
+    text-decoration: none;
+    color: #757575;
+}
+
+.cart {
+    background-color: #ffffff;
+    border: none;
+    color: #757575;
+    border-radius: 3px;
+
+}
+
+.cart:hover {
+    background-color: #ffbe98;
+   
+}
+
 .logo-image img {
     width: 70px;
     height: 42px;
@@ -277,20 +295,18 @@ nav {
     padding-bottom: 45px;
 }
 
-.deals-text h2
- {
+.deals-text h2 {
     text-align: center;
     padding-bottom: 15px;
     padding-top: 15px;
-    
+
 }
-.deals-text h2 span
-{
+
+.deals-text h2 span {
     color: #E95A08;
 }
 
-.deals-text p
-{
+.deals-text p {
     text-align: center;
 }
 
@@ -334,7 +350,7 @@ nav {
 
     background-image: url(assets/news-letter-bg.png);
     max-width: 1440px;
-    width:100%;
+    width: 100%;
     min-height: 350px;
     height: auto;
     align-items: center;
@@ -343,8 +359,8 @@ nav {
     background-repeat: no-repeat;
     margin: auto;
     margin-top: 50px;
-    margin-bottom:30px ;
-    
+    margin-bottom: 30px;
+
 
 
 
@@ -391,34 +407,33 @@ input {
 
 /* FOOTEER */
 
-.footer-container
-{
+.footer-container {
     display: flex;
-    margin:0px 0px;
+    margin: 0px 0px;
     padding: 0px;
     justify-content: space-around;
     /* align-items: center; */
 }
 
-.footer-container li,a
-{
+.footer-container li,
+a {
     list-style: none;
     text-decoration: none;
     margin-bottom: 10px;
     font-size: .75rem;
-    
+
 }
 
-.footer-container a
-{
+.footer-container a {
     color: #757575;
     margin-bottom: 10px;
 }
 
-.icons{
+.icons {
     margin-top: 10px;
 }
-.t{
+
+.t {
 
     margin-bottom: 7px;
 }
