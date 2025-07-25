@@ -4,7 +4,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* BORDEEEERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
+/* BORDEEEERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR to check*/
 
 /* .bb {
     border: 1px solid red;
@@ -38,7 +38,7 @@ nav a {
 
 .cart:hover {
     background-color: #ffbe98;
-   
+
 }
 
 .logo-image img {
@@ -318,32 +318,93 @@ nav a {
 }
 
 
-.ana {
+.deal-item .ana {
     max-width: 200px;
-    display: block;
-    margin-bottom: 8px;
-    border-radius: 10px;
-
-}
-
-.bloom {
-    max-width: 200px;
+    width: 200px;
     display: block;
     border-radius: 10px;
-    margin-bottom: 10px;
-
-
-
 }
 
-.zabo {
+.deal-item .bloom {
+    max-width: 200px;
+    width: 200px;
+    display: block;
+    border-radius: 10px;
+}
+
+.deal-item .zabo {
     max-width: 400px;
+    width: 400px;
     border-radius: 10px;
 }
 
+/* Deal overlay styles */
+.deal-item {
+    position: relative;
+    display: block;
+}
+
+.left .deal-item {
+    margin-bottom: 10px;
+}
+
+.left .deal-item:last-child {
+    margin-bottom: 0;
+}
+
+.deal-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+    width: 100%;
+  
+
+}
+
+.deal-text {
+
+    font-size: .75rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.shop-now {
+    font-size: .75rem;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+ 
+
+}
+
+.shop-now:hover
+{
+    color: #E95A08;
+}
+
+.deal-item img {
+    filter: brightness(0.7);
+   
+}
 
 
-/* NEWSssssssssssssssssssssssssssssssssssss */
+/* Newssssssssssssssssssssssssssssssssssss Letterrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
+    .btn-sub:hover{
+        background-color: #ffbe98;
+        color: #757575;
+    }
 
 .news-letter {
 
@@ -436,4 +497,303 @@ a {
 .t {
 
     margin-bottom: 7px;
+}
+
+
+/* MOBILEEEEEEEEEEEEEEEEEEEEEEE RESPONSIVEEEEEEEEEEEEEEEE */
+
+
+
+@media (max-width: 768px) {
+
+    /* Navi for mobileeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+    nav {
+        margin-top: 10px;
+        padding: 0 20px;
+    }
+
+    .logo-image img {
+        width: 50px;
+        height: 30px;
+        margin-left: 0;
+    }
+
+    .menu {
+        margin-right: 0;
+        gap: 0;
+    }
+
+    /* Gayeb Links */
+    .menu a {
+        display: none;
+    }
+
+    .cart {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    /* Bannerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr for Mobieeeeeeeeeeeeeeeee*/
+    .banner {
+        margin: 40px 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    
+    .banner-img {
+        order: 1;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .banner-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    
+    .banner-text {
+        order: 2;
+        text-align: left;
+        width: 100%;
+    }
+
+    .tagline {
+        font-size: 2rem;
+        padding-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .info {
+        font-size: 0.9rem;
+        margin-top: 10px;
+        line-height: 1.4;
+    }
+
+    /* Our Plants section for mobileeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+    .our-plants-section {
+        margin: 40px 10px;
+    }
+
+    .section-description {
+        padding: 0px 20px;
+        font-size: 0.7rem;
+    }
+
+    .plant-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .plant-card img {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+    }
+
+    .add-to-cart {
+        width: 100%;
+        max-width: 150px;
+        font-size: 0.6rem;
+        padding: 12px 0px;
+    }
+    .plant-name, .plant-price
+    {
+        font-size: .85rem;
+
+    }
+
+    /* Flower & Plants Lover section for mobileeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+    .flower-lover-section {
+        margin: 40px 20px;
+        padding: 0;
+    }
+
+    .flower-lover-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .image-container .main-image {
+        width: 100%;
+        padding: 0;
+    }
+
+   
+    .image-container .badge {
+        display: none;
+    }
+
+    .text-container {
+        width: 100%;
+    }
+
+    .text-container h2 {
+        font-size: 1.8rem;
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .text-container ul {
+        font-size: 0.85rem;
+        padding-left: 15px;
+    }
+
+    /* Latest Dealssssssssssssssssssssssssssssssssssssss section for mobileeeeeeeeeeeeeeeeeeeeee */
+    .deals-section {
+        margin: 40px 20px;
+    }
+
+    .deals-text h2 {
+        font-size: 1.8rem;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .deal-info {
+        margin: 0px 10px;
+        padding-bottom: 30px;
+        font-size: 0.85rem;
+    }
+
+    .deals-images {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .deal-item .ana,
+    .deal-item .bloom,
+    .deal-item .zabo {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .deal-item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .left .deal-item {
+        margin-bottom: 15px;
+    }
+
+    .deal-text {
+        font-size: 1rem;
+    }
+
+    .shop-now {
+        font-size: 0.8rem;
+    }
+
+    /* Newsletterrrrrrrrrrrrrrrrrrrr section for mobileeeeeeeeeeeeeeeeeeeeeeee */
+    .news-letter {
+
+        max-width: none;
+        min-height: 200px;
+        background-size: cover;
+        padding: 30px 15px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news-title {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        text-align: center;
+       
+    }
+
+    .c2a {
+        flex-direction: row;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    input {
+        width: 180px;
+        font-size: 0.7rem;
+        padding: 8px 10px;
+        border: none;
+    }
+
+    .btn-sub {
+        font-size: 0.7rem;
+        padding: 8px 12px;
+       
+    }
+
+    .btn-sub:hover{
+        background-color: #ffbe98;
+        color: #757575;
+    }
+
+
+    /* Footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr for mobileeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+    .footer-container {
+        flex-direction: column;
+        
+        gap: 30px;
+        margin: 40px 20px;
+        
+    }
+
+    .footer-left img {
+        width: 60px;
+        height: auto;
+    }
+
+    .footer-mid-1,
+    .footer-mid-2 {
+        width: 100%;
+    }
+
+    .mid-1,
+    .mid-2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .mid-1 li,
+    .mid-2 li {
+        margin-bottom: 15px;
+    }
+
+    .icons {
+        display: flex;
+        
+        gap: 10px;
+        margin-top: 0;
+        margin-left:0px;
+        padding-left: 0px;
+    }
+
+    .icons img {
+        width: 20px;
+        height: 20px;
+    }
 }
