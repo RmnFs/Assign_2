@@ -277,11 +277,21 @@ nav {
     padding-bottom: 45px;
 }
 
-.deals-text h2,
-p {
+.deals-text h2
+ {
     text-align: center;
     padding-bottom: 15px;
     padding-top: 15px;
+    
+}
+.deals-text h2 span
+{
+    color: #E95A08;
+}
+
+.deals-text p
+{
+    text-align: center;
 }
 
 .deals-images {
@@ -290,6 +300,7 @@ p {
     gap: 10px;
 
 }
+
 
 .ana {
     max-width: 200px;
@@ -322,13 +333,18 @@ p {
 
 
     background-image: url(assets/news-letter-bg.png);
-    max-width: 1000px;
-    height: 330px;
+    max-width: 1440px;
+    width:100%;
+    min-height: 350px;
+    height: auto;
     align-items: center;
     align-content: center;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 50px 0px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom:30px ;
+    
 
 
 
@@ -368,4 +384,41 @@ input {
     font-size: .6rem;
     width: 400px;
     border: none;
+}
+
+
+
+
+/* FOOTEER */
+
+.footer-container
+{
+    display: flex;
+    margin:0px 0px;
+    padding: 0px;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.footer-container li,a
+{
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: .75rem;
+    
+}
+
+.footer-container a
+{
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.icons{
+    margin-top: 10px;
+}
+.t{
+
+    margin-bottom: 7px;
 }
